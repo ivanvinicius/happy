@@ -1,0 +1,32 @@
+:root {
+  --light-blue: #00C7C7;
+  --dark-blue: #29B6D1;
+  --white: #FFF;
+  --background: #EBF2F5;
+  
+  --color-button: #FFD666;
+  --color-button-hover: #96FEFF;
+
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--background);
+
+  box-sizing: border-box;
+}
+
+body,
+input, 
+button,
+textarea {
+  font: 600 18px 'Nunito', sans-serif;
+}
